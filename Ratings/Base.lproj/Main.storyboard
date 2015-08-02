@@ -28,30 +28,6 @@
             </objects>
             <point key="canvasLocation" x="63" y="708"/>
         </scene>
-        <!--Item 1-->
-        <scene sceneID="LNN-j5-bT0">
-            <objects>
-                <viewController id="tgD-qs-dYw" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Vyt-at-ghv">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First Tab" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hbg-rW-tfO">
-                                <rect key="frame" x="91" y="126" width="66" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="1DK-Dw-w7v"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="X3C-za-oHI" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="94" y="93"/>
-        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="FQ0-Qu-lEc">
             <objects>
@@ -63,7 +39,6 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="tgD-qs-dYw" kind="relationship" relationship="viewControllers" id="O46-X9-Ye9"/>
                         <segue destination="UtG-AM-fKc" kind="relationship" relationship="viewControllers" id="mKt-vz-Qi0"/>
                     </connections>
                 </tabBarController>
