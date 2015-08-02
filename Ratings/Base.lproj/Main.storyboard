@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
-        <!--Table View Controller-->
+        <!--Players-->
         <scene sceneID="9U7-om-dZi">
             <objects>
                 <tableViewController id="P51-re-QWv" sceneMemberID="viewController">
@@ -27,7 +27,7 @@
                             <outlet property="delegate" destination="P51-re-QWv" id="bYm-jJ-6P5"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="Gjl-hX-LO8"/>
+                    <navigationItem key="navigationItem" title="Players" id="Gjl-hX-LO8"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BVC-Gz-DaN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -51,7 +51,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Gestures" id="4tR-Kb-AgD"/>
+                    <tabBarItem key="tabBarItem" title="Gestures" image="Gestures.png" id="4tR-Kb-AgD"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="frj-aX-AQ5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -80,7 +80,7 @@
         <scene sceneID="GCw-N5-t2r">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="AET-g2-aXO" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Players" id="zuA-1J-T5T"/>
+                    <tabBarItem key="tabBarItem" title="Players" image="Players.png" id="zuA-1J-T5T"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="IyG-XF-9OG">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -96,6 +96,10 @@
             <point key="canvasLocation" x="62" y="-27"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Gestures.png" width="30" height="30"/>
+        <image name="Players.png" width="30" height="30"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
