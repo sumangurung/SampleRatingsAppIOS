@@ -15,6 +15,7 @@
 		5C1443A81B6DA5CC00C8DF99 /* RatingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1443A71B6DA5CC00C8DF99 /* RatingsTests.swift */; };
 		5C1443B21B6E3D2E00C8DF99 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 5C1443B11B6E3D2E00C8DF99 /* Images */; };
 		5C1443B41B6E425400C8DF99 /* PlayersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1443B31B6E425400C8DF99 /* PlayersTableViewController.swift */; };
+		5C1443B61B6E42F700C8DF99 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1443B51B6E42F700C8DF99 /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,8 @@
 		5C1443A61B6DA5CC00C8DF99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C1443A71B6DA5CC00C8DF99 /* RatingsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingsTests.swift; sourceTree = "<group>"; };
 		5C1443B11B6E3D2E00C8DF99 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
-		5C1443B31B6E425400C8DF99 /* PlayersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayersTableViewController.swift; sourceTree = "<group>"; };
+		5C1443B31B6E425400C8DF99 /* PlayersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayersTableViewController.swift; path = ../PlayersTableViewController.swift; sourceTree = "<group>"; };
+		5C1443B51B6E42F700C8DF99 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +65,6 @@
 		5C1443831B6DA5CC00C8DF99 = {
 			isa = PBXGroup;
 			children = (
-				5C1443B31B6E425400C8DF99 /* PlayersTableViewController.swift */,
 				5C1443B11B6E3D2E00C8DF99 /* Images */,
 				5C14438E1B6DA5CC00C8DF99 /* Ratings */,
 				5C1443A41B6DA5CC00C8DF99 /* RatingsTests */,
@@ -83,12 +84,14 @@
 		5C14438E1B6DA5CC00C8DF99 /* Ratings */ = {
 			isa = PBXGroup;
 			children = (
+				5C1443B31B6E425400C8DF99 /* PlayersTableViewController.swift */,
 				5C1443911B6DA5CC00C8DF99 /* AppDelegate.swift */,
 				5C1443931B6DA5CC00C8DF99 /* ViewController.swift */,
 				5C1443951B6DA5CC00C8DF99 /* Main.storyboard */,
 				5C1443981B6DA5CC00C8DF99 /* Images.xcassets */,
 				5C14439A1B6DA5CC00C8DF99 /* LaunchScreen.xib */,
 				5C14438F1B6DA5CC00C8DF99 /* Supporting Files */,
+				5C1443B51B6E42F700C8DF99 /* Player.swift */,
 			);
 			path = Ratings;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C1443B61B6E42F700C8DF99 /* Player.swift in Sources */,
 				5C1443941B6DA5CC00C8DF99 /* ViewController.swift in Sources */,
 				5C1443921B6DA5CC00C8DF99 /* AppDelegate.swift in Sources */,
 				5C1443B41B6E425400C8DF99 /* PlayersTableViewController.swift in Sources */,
