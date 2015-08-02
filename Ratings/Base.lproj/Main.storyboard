@@ -69,16 +69,18 @@
                     </tabBar>
                     <connections>
                         <segue destination="UtG-AM-fKc" kind="relationship" relationship="viewControllers" id="mKt-vz-Qi0"/>
+                        <segue destination="AET-g2-aXO" kind="relationship" relationship="viewControllers" id="pgP-V7-Dk6"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WDh-Wr-zqO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-686" y="352"/>
+            <point key="canvasLocation" x="-588" y="324"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Item-->
         <scene sceneID="GCw-N5-t2r">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="AET-g2-aXO" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="zuA-1J-T5T"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="IyG-XF-9OG">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
