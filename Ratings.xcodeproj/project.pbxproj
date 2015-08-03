@@ -425,6 +425,7 @@
 				5C1443AD1B6DA5CC00C8DF99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5C1443AE1B6DA5CC00C8DF99 /* Build configuration list for PBXNativeTarget "RatingsTests" */ = {
 			isa = XCConfigurationList;
@@ -433,6 +434,7 @@
 				5C1443B01B6DA5CC00C8DF99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
