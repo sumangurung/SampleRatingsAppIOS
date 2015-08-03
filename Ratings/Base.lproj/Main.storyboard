@@ -14,7 +14,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="PlayerCell" rowHeight="55" id="GYl-Mr-JJb" customClass="PlayerCell" customModule="Ratings" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="22" width="320" height="55"/>
+                                <rect key="frame" x="0.0" y="86" width="320" height="55"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="GYl-Mr-JJb" id="ZdS-LE-bsO">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="54.5"/>
@@ -105,7 +105,7 @@
         <scene sceneID="GCw-N5-t2r">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="AET-g2-aXO" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Players" image="Ratings/Images/Players.png" id="zuA-1J-T5T"/>
+                    <tabBarItem key="tabBarItem" title="Players" image="Players.png" id="zuA-1J-T5T"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="IyG-XF-9OG">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -123,7 +123,7 @@
     </scenes>
     <resources>
         <image name="Gestures.png" width="30" height="30"/>
-        <image name="Ratings/Images/Players.png" width="16" height="16"/>
+        <image name="Players.png" width="30" height="30"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
